@@ -17,7 +17,7 @@ export default function WeatherScreen({route, navigation}) {
 
   useEffect(() => {
     const fetchWeather = async () => {
-      const apiKey = '3e699a092a40ac34acd099e02314c7ff';
+      const apiKey = 'YOUR_API_KEY';
       setWeatherData(null);
       if (city === '') {
         return;
